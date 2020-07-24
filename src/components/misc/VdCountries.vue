@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import Http from '../../http'
+import EHttp from '../../http'
 export default {
   name: 'VdCountries',
   props: {
@@ -119,7 +119,7 @@ export default {
     },
     load () {
       this.loading = true
-      new Http()
+      new EHttp()
         .get('//restcountries.eu/rest/v2/all')
         .then(resp => {
           this.loading = false

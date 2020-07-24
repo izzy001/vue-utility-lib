@@ -1,5 +1,5 @@
 import Hello from 'hellojs'
-import Http from '../http'
+import EHttp from '../http'
 import Swal from 'sweetalert'
 import Toasted from 'vue-toasted'
 import WSocket from '../wsocket'
@@ -50,7 +50,7 @@ export default (Vue, options = {}) => {
     Vue.use(Toasted, typeof options.features.toasts == 'object' ? options.features.toasts : {})
   }
   if (options.features.http) {
-    Vue.prototype.$http = new Http(typeof options.features.http == 'object' ? options.features.http : options.http)
+    Vue.prototype.$http = new EHttp(typeof options.features.http == 'object' ? options.features.http : options.http)
   }
 
   let mixins = {

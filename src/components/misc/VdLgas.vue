@@ -39,7 +39,7 @@
 </template>
 
 <script>
-import Http from '../../http'
+import EHttp from '../../http'
 export default {
   name: 'VdLgas',
   inheritAttrs: false,
@@ -133,7 +133,7 @@ export default {
     },
     load (state) {
       this.loading = true
-      new Http()
+      new EHttp()
         .get(`//nigeria.herokuapp.com/api/v1/states/${state}/lgas`)
         .then(resp => {
           this.$set(this, 'lgas', resp.data)

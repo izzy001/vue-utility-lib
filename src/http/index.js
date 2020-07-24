@@ -1,6 +1,6 @@
 import Http  from '@ezraobiwale/http';
 
-export default class Http extends Http {
+export default class EHttp extends Http {
   /**
    * Class constructor
    * @param {object} options 
