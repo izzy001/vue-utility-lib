@@ -3,7 +3,7 @@
 ## Installation
 
 ```
-npm install --save @izzy/vue-utility-lib
+npm install --save @izzy001/vue-utility-lib
 ```
 
 ## Usage

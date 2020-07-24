@@ -1,4 +1,4 @@
-import EHttp from '@ezraobiwale/http';
+import { EHttp } from '@ezraobiwale/http';
 
 export default class Http extends EHttp {
   /**
