@@ -1,6 +1,6 @@
 import Http  from '@ezraobiwale/http';
 
-export default class EHttp extends Http {
+ class EHttp extends Http {
   /**
    * Class constructor
    * @param {object} options 
@@ -37,3 +37,5 @@ export default class EHttp extends Http {
     return super._send(type, args)
   }
 }
+
+module.exports = EHttp;

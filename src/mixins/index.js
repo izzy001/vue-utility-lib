@@ -1,10 +1,11 @@
 import Hello from 'hellojs'
-import EHttp from '../http'
+//import EHttp from '../http'
 import Swal from 'sweetalert'
 import Toasted from 'vue-toasted'
 import WSocket from '../wsocket'
 
 let VueSocialSharing = require('vue-social-sharing')
+let EHttp = require('../http')
 let loadedScripts = {}
 
 export default (Vue, options = {}) => {
