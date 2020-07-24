@@ -1,4 +1,4 @@
-import { Http } from '@ezraobiwale/http';
+import Http  from '@ezraobiwale/http';
 
 export default class Http extends Http {
   /**
