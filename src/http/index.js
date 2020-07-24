@@ -38,4 +38,4 @@ import Http  from '@ezraobiwale/http';
   }
 }
 
-module.exports = EHttp;
+export default EHttp;
