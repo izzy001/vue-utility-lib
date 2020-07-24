@@ -1,0 +1,33 @@
+{
+  "name": "@izzy/vue-utility-lib",
+  "author": {
+    "name": "Emoitologa Israel",
+    "email": "israelemoi@gmail.com"
+  },
+  "dependencies": {
+    "@ezraobiwale/http": "^1.4.1",
+    "hellojs": "^2.0.0-4",
+    "localforage": "^1.8.1",
+    "sweetalert": "^2.1.2",
+    "vue": "^2.6.11",
+    "vue-social-sharing": "^3.0.0-beta.11",
+    "vue-toasted": "^1.1.28",
+    "vuelidate": "^0.7.5",
+    "vuex": "^3.5.1"
+  },
+  "bundleDependencies": [],
+  "description": "Utility library for VueJS",
+  "homepage": "https://github.com/izzy001/vue-utility-lib#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/izzy001/vue-utility-lib.git"
+  },
+  "scripts": {
+    "install": "node install.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0",
+  "private": false
+}
