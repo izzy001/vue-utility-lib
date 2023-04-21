@@ -5,7 +5,7 @@
     "email": "israelemoi@gmail.com"
   },
   "dependencies": {
-    "@ezraobiwale/http": "^1.4.1",
+    "@ezraobiwale/http": "^2.0.3",
     "hellojs": "^2.0.0-4",
     "localforage": "^1.8.1",
     "sweetalert": "^2.1.2",
